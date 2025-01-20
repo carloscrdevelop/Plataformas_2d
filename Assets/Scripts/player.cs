@@ -29,22 +29,14 @@ public class player : MonoBehaviour
     {
         Movimiento();
 
-        Atacar();
+      
         
         Saltar();
 
         Interactuar();
     }
 
-    private static void Atacar()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            //SistemaVidas sistemaVidas = collision.gameObject.GetComponent<SistemaVidas>();
-            //sistemaVidas.RecibirDano(danoAtaque);
-
-        }
-    }
+  
 
     private void Movimiento()
     {
